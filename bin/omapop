@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source $OMAPOP_OS_PATH/ascii.sh
+echo "" # Add spacing
+echo "                                 $(cat $OMAPOP_OS_PATH/version)"
+echo "" # Add spacing
+source $OMAPOP_OS_PATH/bin/omapop_OS-sub/menu.sh
