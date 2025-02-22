@@ -3,7 +3,7 @@ pipx install gnome-extensions-cli --system-site-packages
 
 # Turn off default Ubuntu extensions
 gnome-extensions disable ubuntu-appindicators@ubuntu.com
-gnome-extensions disable dash-to-dock@micxgx.gmail.com
+gnome-extensions disable cosmic-dock@system76.com
 gnome-extensions disable ding@rastersoft.com
 gnome-extensions disable cosmic-workspaces@system76.com
 
