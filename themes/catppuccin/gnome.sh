@@ -1,3 +1,3 @@
-OMAKUB_THEME_COLOR="magenta"
-OMAKUB_THEME_BACKGROUND="catppuccin/background.png"
-source $OMAKUB_PATH/themes/set-gnome-theme.sh
+OMAPOP_OS_THEME_COLOR="magenta"
+OMAPOP_OS_THEME_BACKGROUND="catppuccin/background.png"
+source $OMAPOP_OS_PATH/themes/set-gnome-theme.sh

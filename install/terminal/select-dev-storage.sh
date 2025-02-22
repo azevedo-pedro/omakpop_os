@@ -1,6 +1,6 @@
 # Install default databases
-if [[ -v OMAKUB_FIRST_RUN_DBS ]]; then
-	dbs=$OMAKUB_FIRST_RUN_DBS
+if [[ -v OMAPOP_OS_FIRST_RUN_DBS ]]; then
+	dbs=$OMAPOP_OS_FIRST_RUN_DBS
 else
 	AVAILABLE_DBS=("MySQL" "Redis" "PostgreSQL")
 	dbs=$(gum choose "${AVAILABLE_DBS[@]}" --no-limit --height 5 --header "Select databases (runs in Docker)")
