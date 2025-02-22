@@ -3,7 +3,7 @@ cat <<EOF >~/.local/share/applications/Activity.desktop
 Version=1.0
 Name=Activity
 Comment=System activity from btop
-Exec=alacritty --config-file /home/$USER/.local/share/omapop_OS/defaults/alacritty/btop.toml --class=Activity --title=Activity -e btop
+Exec=kitty --config-file /home/$USER/.local/share/omapop_OS/defaults/kitty/btop.toml --class=Activity --title=Activity -e btop
 Terminal=false
 Type=Application
 Icon=/home/$USER/.local/share/omapop_OS/applications/icons/Activity.png

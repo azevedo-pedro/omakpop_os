@@ -1,1 +1,1 @@
-import = [ "~/.config/alacritty/theme.toml", "~/.config/alacritty/font.toml", "~/.config/alacritty/font-size.toml", "~/.local/share/omapop_OS/defaults/alacritty.toml" ]
+import = [ "~/.config/kitty/theme.toml", "~/.config/kitty/font.toml", "~/.config/kitty/font-size.toml", "~/.local/share/omapop_OS/defaults/kitty.toml" ]

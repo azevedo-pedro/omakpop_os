@@ -17,7 +17,7 @@ else
 	INSTALLER=$(echo "$CHOICE" | awk -F ' {2,}' '{print $1}' | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
 
 	case "$INSTALLER" in
-	"omapop_OS") INSTALLER_FILE="$OMAPOP_OS_PATH/bin/omapop_OS-sub/migrate.sh" ;;
+	"omapop_OS") INSTALLER_FILE="$OMAPOP_OS_PATH/bin/omapop-sub/migrate.sh" ;;
 	"localsend") INSTALLER_FILE="$OMAPOP_OS_PATH/install/desktop/app-localsend.sh" ;;
 	"ollama") INSTALLER_FILE="$OMAPOP_OS_PATH/install/terminal/optional/app-ollama.sh" ;;
 	*) INSTALLER_FILE="$OMAPOP_OS_PATH/install/terminal/app-$INSTALLER.sh" ;;
@@ -27,4 +27,4 @@ else
 fi
 
 clear
-source $OMAPOP_OS_PATH/bin/omapop_OS
+source $OMAPOP_OS_PATH/bin/omapop

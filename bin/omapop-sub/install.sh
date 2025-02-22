@@ -46,4 +46,4 @@ else
 fi
 
 clear
-source $OMAPOP_OS_PATH/bin/omapop_OS
+source $OMAPOP_OS_PATH/bin/omapop
