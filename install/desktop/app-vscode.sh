@@ -9,7 +9,7 @@ sudo apt update -y
 sudo apt install -y code
 
 mkdir -p ~/.config/Code/User
-cp ~/.local/share/omapop_OS/configs/vscode.json ~/.config/Code/User/settings.json
+cp ~/.local/share/omakpop/configs/vscode.json ~/.config/Code/User/settings.json
 
 # Install default supported themes
 code --install-extension enkia.tokyo-night

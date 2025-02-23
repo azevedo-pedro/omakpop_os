@@ -1,6 +1,6 @@
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-BACKGROUND_ORG_PATH="$HOME/.local/share/omapop_OS/themes/$OMAPOP_OS_THEME_BACKGROUND"
+BACKGROUND_ORG_PATH="$HOME/.local/share/omakpop/themes/$OMAPOP_OS_THEME_BACKGROUND"
 BACKGROUND_DEST_DIR="$HOME/.local/share/backgrounds"
 BACKGROUND_DEST_PATH="$BACKGROUND_DEST_DIR/$(echo $OMAPOP_OS_THEME_BACKGROUND | tr '/' '-')"
 

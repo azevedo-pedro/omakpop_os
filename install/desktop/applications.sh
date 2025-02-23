@@ -1,1 +1,1 @@
-for script in ~/.local/share/omapop_OS/applications/*.sh; do source $script; done
+for script in ~/.local/share/omakpop/applications/*.sh; do source $script; done
