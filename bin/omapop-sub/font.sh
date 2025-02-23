@@ -13,11 +13,11 @@ set_font() {
 		fc-cache
 		cd -
 		clear
-		source $OMAPOP_OS_PATH/ascii.sh
+		source $OMAKPOP_PATH/ascii.sh
 	fi
 
 	gsettings set org.gnome.desktop.interface monospace-font-name "$font_name 10"
-	cp "$OMAPOP_OS_PATH/configs/kitty/fonts/$file_name.toml" ~/.config/kitty/font.toml
+	cp "$OMAKPOP_PATH/configs/kitty/fonts/$file_name.toml" ~/.config/kitty/font.toml
 	sed -i "s/\"editor.fontFamily\": \".*\"/\"editor.fontFamily\": \"$font_name\"/g" ~/.config/Code/User/settings.json
 }
 
@@ -41,9 +41,9 @@ case $choice in
 	set_font "MesloLGS Nerd Font" "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Meslo.zip" "ttf"
 	;;
 "> Change size")
-	source $OMAPOP_OS_PATH/bin/omapop-sub/font-size.sh
+	source $OMAKPOP_PATH/bin/omakpop-sub/font-size.sh
 	exit
 	;;
 esac
 
-source $OMAPOP_OS_PATH/bin/omapop-sub/menu.sh
+source $OMAKPOP_PATH/bin/omakpop-sub/menu.sh

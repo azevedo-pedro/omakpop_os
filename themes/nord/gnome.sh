@@ -1,3 +1,3 @@
-OMAPOP_OS_THEME_COLOR="blue"
-OMAPOP_OS_THEME_BACKGROUND="nord/background.png"
-source $OMAPOP_OS_PATH/themes/set-gnome-theme.sh
+OMAKPOP_THEME_COLOR="blue"
+OMAKPOP_THEME_BACKGROUND="nord/background.png"
+source $OMAKPOP_PATH/themes/set-gnome-theme.sh

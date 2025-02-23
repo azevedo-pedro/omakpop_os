@@ -2,4 +2,4 @@ CHROME_COLOR="1579044"
 CHROME_COLOR_SCHEME=2
 CHROME_COLOR_VARIANT=1
 CHROME_BACKGROUND="catppuccin/background.png"
-source $OMAPOP_OS_PATH/themes/set-chrome-theme.sh
+source $OMAKPOP_PATH/themes/set-chrome-theme.sh

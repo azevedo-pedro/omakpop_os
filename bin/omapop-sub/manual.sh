@@ -1,2 +1,2 @@
-xdg-open "https://manual.omapop.org" >/dev/null
-source $OMAPOP_OS_PATH/bin/omapop-sub/menu.sh
+xdg-open "https://manual.omakpop.org" >/dev/null
+source $OMAKPOP_PATH/bin/omakpop-sub/menu.sh

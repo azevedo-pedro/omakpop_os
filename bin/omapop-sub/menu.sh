@@ -4,4 +4,4 @@ else
 	SUB=$1
 fi
 
-[ -n "$SUB" ] && [ "$SUB" != "quit" ] && source $OMAPOP_OS_PATH/bin/omapop-sub/$SUB.sh
+[ -n "$SUB" ] && [ "$SUB" != "quit" ] && source $OMAKPOP_PATH/bin/omakpop-sub/$SUB.sh

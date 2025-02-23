@@ -10,18 +10,18 @@ ascii_art='
 '
 
 echo -e "$ascii_art"
-echo "=> Omapop_OS is for fresh Pop_OS 22.04+ installations only!"
+echo "=> Omakpop_OS is for fresh Pop_OS 22.04+ installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
 sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
-echo "Cloning Omapop_OS..."
+echo "Cloning Omakpop..."
 rm -rf ~/.local/share/omakpop
 git clone https://github.com/azevedo-pedro/omakpop_os.git ~/.local/share/omakpop >/dev/null
-# if [[ $OMAPOP_OS_REF != "master" ]]; then
+# if [[ $OMAKPOP_REF != "master" ]]; then
 # 	cd ~/.local/share/omakpop
-# 	git fetch origin "${OMAPOP_OS_REF:-stable}" && git checkout "${OMAPOP_OS_REF:-stable}"
+# 	git fetch origin "${OMAKPOP_REF:-stable}" && git checkout "${OMAKPOP_REF:-stable}"
 # 	cd -
 # fi
 

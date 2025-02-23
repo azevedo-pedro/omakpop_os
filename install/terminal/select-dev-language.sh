@@ -1,6 +1,6 @@
 # Install default programming languages
-if [[ -v OMAPOP_OS_FIRST_RUN_LANGUAGES ]]; then
-	languages=$OMAPOP_OS_FIRST_RUN_LANGUAGES
+if [[ -v OMAKPOP_FIRST_RUN_LANGUAGES ]]; then
+	languages=$OMAKPOP_FIRST_RUN_LANGUAGES
 else
 	AVAILABLE_LANGUAGES=("Ruby on Rails" "Node.js" "Go" "PHP" "Python" "Elixir" "Rust" "Java")
 	languages=$(gum choose "${AVAILABLE_LANGUAGES[@]}" --no-limit --height 10 --header "Select programming languages")

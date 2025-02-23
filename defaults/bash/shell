@@ -11,4 +11,4 @@ source /usr/share/bash-completion/bash_completion
 export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omakpop/bin:$PATH"
 set +h
 
-export OMAPOP_OS_PATH="/home/$USER/.local/share/omakpop"
+export OMAKPOP_PATH="/home/$USER/.local/share/omakpop"

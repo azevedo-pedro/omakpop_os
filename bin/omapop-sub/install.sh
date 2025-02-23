@@ -26,7 +26,7 @@ if [[ "$CHOICE" == "<< Back"* ]] || [[ -z "$CHOICE" ]]; then
   # Don't install anything
   echo ""
 elif [[ "$CHOICE" == "> All"* ]]; then
-  INSTALLER_FILE=$(gum file $OMAPOP_OS_PATH/install)
+  INSTALLER_FILE=$(gum file $OMAKPOP_PATH/install)
 
   [[ -n "$INSTALLER_FILE" ]] &&
     gum confirm "Run installer?" &&
@@ -36,14 +36,14 @@ else
   INSTALLER=$(echo "$CHOICE" | awk -F ' {2,}' '{print $1}' | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
 
   case "$INSTALLER" in
-  "dev-language") INSTALLER_FILE="$OMAPOP_OS_PATH/install/terminal/select-dev-language.sh" ;;
-  "dev-database") INSTALLER_FILE="$OMAPOP_OS_PATH/install/terminal/select-dev-storage.sh" ;;
-  "ollama") INSTALLER_FILE="$OMAPOP_OS_PATH/install/terminal/optional/app-ollama.sh" ;;
-  *) INSTALLER_FILE="$OMAPOP_OS_PATH/install/desktop/optional/app-$INSTALLER.sh" ;;
+  "dev-language") INSTALLER_FILE="$OMAKPOP_PATH/install/terminal/select-dev-language.sh" ;;
+  "dev-database") INSTALLER_FILE="$OMAKPOP_PATH/install/terminal/select-dev-storage.sh" ;;
+  "ollama") INSTALLER_FILE="$OMAKPOP_PATH/install/terminal/optional/app-ollama.sh" ;;
+  *) INSTALLER_FILE="$OMAKPOP_PATH/install/desktop/optional/app-$INSTALLER.sh" ;;
   esac
 
   source $INSTALLER_FILE && gum spin --spinner globe --title "Install completed!" -- sleep 3
 fi
 
 clear
-source $OMAPOP_OS_PATH/bin/omapop
+source $OMAKPOP_PATH/bin/omakpop
