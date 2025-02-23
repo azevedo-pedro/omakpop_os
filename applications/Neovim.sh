@@ -3,7 +3,7 @@ cat <<EOF >~/.local/share/applications/Neovim.desktop
 Version=1.0
 Name=Neovim
 Comment=Edit text files
-Exec=kitty --config-file /home/$USER/.local/share/omapop_OS/defaults/kitty/pane.toml --class=Neovim --title=Neovim -e nvim %F
+Exec=kitty --config-file /home/$USER/.local/share/omakpop/defaults/kitty/pane.toml --class=Neovim --title=Neovim -e nvim %F
 Terminal=false
 Type=Application
 Icon=nvim
